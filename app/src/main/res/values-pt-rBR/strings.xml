@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de IMC</string>
+    <string name="height">Altura (em m)</string>
+    <string name="weight">Peso (em Kg)</string>
+    <string name="btn_calculate_bmi">Calcular</string>
+    <string name="result">IMC: %.2f</string>
+    <string name="txt_reference_values">Valores de referência</string>
+    <string name="underweight"><![CDATA[<15.8: ABAIXO DO PESO]]></string>
+    <string name="normal">18.5 – 24.9: NORMAL</string>
+    <string name="overweight">25 – 29.9: SOBREPESO</string>
+    <string name="obese">30 – 34.9: OBESIDADE</string>
+    <string name="extremely_obese"><![CDATA[35<: OBESIDADE EXTREMA]]></string>
+    <string name="close">Fechar</string>
+</resources>
