@@ -6,10 +6,13 @@
     <string name="btn_calculate_bmi">Calcular</string>
     <string name="result">IMC: %.2f</string>
     <string name="txt_reference_values">Valores de referência</string>
-    <string name="underweight"><![CDATA[<15.8: ABAIXO DO PESO]]></string>
+    <string name="severe_thinness"><![CDATA[< 16: MAGREZA GRAU III]]></string>
+    <string name="moderate_thinness">16 – 16.9: MAGREZA GRAU II</string>
+    <string name="underweight">17 – 18.4: MAGREZA GRAU I</string>
     <string name="normal">18.5 – 24.9: NORMAL</string>
     <string name="overweight">25 – 29.9: SOBREPESO</string>
-    <string name="obese">30 – 34.9: OBESIDADE</string>
-    <string name="extremely_obese"><![CDATA[35<: OBESIDADE EXTREMA]]></string>
+    <string name="obese">30 – 34.9: OBESIDADE GRAU I</string>
+    <string name="obese_ii">35 – 39.9: OBESIDADE GRAU II</string>
+    <string name="obese_iii"><![CDATA[>= 40: OBESIDADE MÓRBIDA]]></string>
     <string name="close">Fechar</string>
 </resources>

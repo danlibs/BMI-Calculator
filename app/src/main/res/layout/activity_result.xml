@@ -19,10 +19,57 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/underweight_1"
+        style="@style/txt_bmi_scale"
+        android:background="#00D43C"
+        android:text="@string/underweight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/underweight_2" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/secondary_700"
+        android:text="@string/close"
+        android:textColor="#4A148C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obese_3" />
+
+    <TextView
+        android:id="@+id/obese_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="@string/obese"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overweight" />
+
+    <TextView
+        android:id="@+id/obese_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:text="@string/obese_iii"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obese_2" />
+
+    <TextView
         android:id="@+id/txt_reference_values"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="12dp"
         android:text="@string/txt_reference_values"
         android:textColor="#0097A7"
         android:textSize="24sp"
@@ -30,31 +77,6 @@
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bmi_result" />
-
-    <TextView
-        android:id="@+id/underweight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:background="#00BCD4"
-        android:text="@string/underweight"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_reference_values" />
-
-    <TextView
-        android:id="@+id/normal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4CAF50"
-        android:text="@string/normal"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/underweight" />
 
     <TextView
         android:id="@+id/overweight"
@@ -69,39 +91,49 @@
         app:layout_constraintTop_toBottomOf="@+id/normal" />
 
     <TextView
-        android:id="@+id/obese"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FF9800"
-        android:text="@string/obese"
-        android:textSize="20sp"
+        android:id="@+id/underweight_3"
+        style="@style/txt_bmi_scale"
+        android:layout_marginTop="8dp"
+        android:background="#23BCCF"
+        android:text="@string/severe_thinness"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/overweight" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_reference_values" />
 
     <TextView
-        android:id="@+id/extremely_obese"
+        android:id="@+id/underweight_2"
+        style="@style/txt_bmi_scale"
+        android:background="#12D196"
+        android:text="@string/moderate_thinness"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/underweight_3" />
+
+    <TextView
+        android:id="@+id/obese_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F44336"
-        android:text="@string/extremely_obese"
+        android:background="#EF5914"
+        android:text="@string/obese_ii"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/obese" />
+        app:layout_constraintTop_toBottomOf="@+id/obese_1" />
 
-    <Button
-        android:id="@+id/btn_close"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@color/secondary_700"
-        android:text="@string/close"
-        android:textColor="#4A148C"
+        android:background="#4CAF50"
+        android:text="@string/normal"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/extremely_obese" />
+        app:layout_constraintTop_toBottomOf="@+id/underweight_1" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

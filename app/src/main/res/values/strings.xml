@@ -5,10 +5,13 @@
     <string name="btn_calculate_bmi">Calculate</string>
     <string name="result">BMI: %.2f</string>
     <string name="txt_reference_values">Reference values:</string>
-    <string name="underweight"><![CDATA[<15.8: UNDERWEIGHT]]></string>
+    <string name="severe_thinness"><![CDATA[< 16: SEVERE THINNESS]]></string>
+    <string name="moderate_thinness">16 – 16.9: MODERATE THINNESS</string>
+    <string name="underweight">17 – 18.4: MILD THINNESS</string>
     <string name="normal">18.5 – 24.9: NORMAL</string>
     <string name="overweight">25 – 29.9: OVERWEIGHT</string>
-    <string name="obese">30 – 34.9: OBESE</string>
-    <string name="extremely_obese"><![CDATA[35<: EXTREMELY OBESE]]></string>
+    <string name="obese">30 – 34.9: OBESE I</string>
     <string name="close">Close</string>
+    <string name="obese_ii">35 – 39.9: OBESE II</string>
+    <string name="obese_iii"><![CDATA[>= 40: OBESE III]]></string>
 </resources>
